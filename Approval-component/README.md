@@ -29,28 +29,4 @@ Salesforce in default doesn't have a screen to approve or reject the pending app
 
 ![image](https://drive.google.com/uc?export=view&id=1D7uKfAhfpwN7rLla85SKo62BCiuRBSod)
 
-## Deployment 
-You can deploy this widget as managed Package in your Salesforce instance.
-```sh
-URL: https://login.salesforce.com/packaging/installPackage.apexp?p0=04t0K000001VKBF
-```
-- Choose `All users` while deploying the package.
-> ***Before you install***, 
-Create a approval process in contact object named as `Test_Approval` with entry criteria as `LastName` is not blank and activate. This is used for installing package. After installation completes, delete this approval process. we are doing this because approval process is not available for packaging.
-
-## Todos
-
- - [ ] Optimize code
- - [ ] Filters
- - [ ] Add undo function for Approve and Reject actions.
- - [ ] Add Night Mode
-
-
-Any Bugs ? Please mail me @vigneshdj60@gmail.com and Follow me in trailblazer https://trailblazer.me/id/vigneshmohankumar and twitter V_my_Atmosphere. 
-
-
-### Reference :+1:
-  - [SFDCMonkey](https://sfdcmonkey.com/2020/04/11/approval-screen-sfdc-lightning/) - provides the basic approach on mass approval using AURA and apex which is simple and I just made it in LWC with more options.  
-
-
 
