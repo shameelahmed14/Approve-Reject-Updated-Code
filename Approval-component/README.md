@@ -1,5 +1,5 @@
 # Multi Approval Process Widget
-[![Generic badge](https://img.shields.io/badge/Build-Passed-green.svg)]()  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]() [![Generic badge](https://img.shields.io/badge/Code%20coverage-93%25-green.svg)]()
+
 
 ## App Details
 
@@ -10,10 +10,6 @@ Salesforce in default doesn't have a screen to approve or reject the pending app
 | ------ | ------ |
 | **Platform** | Salesforce Lightning Platform |
 | **Framework** | LWC (Lightning Web Components) |
-| **Package Version Name** | Initial Release |
-| **Package Version Number** | 1.0 (Released) |
-### Available for
-  Lightning Home Page, Lightning App page, Lightning App utility Bar (1000 x 400) pixels in Lightning App.
 
 ## Features
  - Mass Approve/ Reject Approval requests
